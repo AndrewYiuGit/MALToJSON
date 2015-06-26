@@ -1,0 +1,12 @@
+default: &default
+    mal_username: <%= ENV['MAL_USERNAME'] %>
+    mal_password: <%= ENV['MAL_PASSWORD'] %>
+
+development:
+  <<: *default
+
+test:
+  <<: *default
+
+production:
+  <<: *default
