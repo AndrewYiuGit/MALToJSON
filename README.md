@@ -1,5 +1,7 @@
 ## README
 
+[maljsonsearch.herokuapp.com](maljsonsearch.herokuapp.com)
+
 This is a service that will return the MAL search results in JSON instead of XML. At the moment it simply parses the XML and reformats it in JSON, but there are more features planned. The app has 1 static page at the root URL and a 404 image. It is meant to be used as an API.
 
 ## Enpoints
