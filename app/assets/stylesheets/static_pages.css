@@ -1,0 +1,29 @@
+body {
+    background-color: #213993;
+    color: #FFFFFF;
+}
+
+.center_div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inline_title {
+    display: inline;
+}
+
+.text_quicksand {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.text_orbitron {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+}
+
+.text_orbitron_bold {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+}
